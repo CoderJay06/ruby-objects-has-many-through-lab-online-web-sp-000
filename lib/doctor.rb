@@ -30,7 +30,7 @@ class Doctor
   
   def patients 
     # iterates over the doctors appointments and collects the patient belonging to each appointment 
-    appointments.collect {|appointment| appointment.patient.name}
+    appointments.collect {|appointment| appointment.patient}
   end 
   
 end 
